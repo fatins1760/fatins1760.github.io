@@ -1,0 +1,72 @@
+/*articulo index*/
+main{
+    margin-top: 30px;
+}
+.parrafo-principal{
+    margin: 60px;
+    margin-left: 55px;
+    width: 1200px;
+    background-color: #f3d6c1;
+    height: 240px;
+    padding: 30px;
+}
+
+.parrafo-principal h2{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #000;
+    text-align: justify;
+}
+.parrafo-principal p{
+    font-size: 22px;
+    padding: 10px;
+    color: #000;
+    line-height: 35px;
+    text-align: justify;
+}
+
+/*articulo contacto*/
+.articulo{
+    margin: 40px;
+    margin-left: 320px;
+    width: 50%;
+    background-color: #f3d6c1;
+    height: 300px;
+    
+}
+
+.articulo h2{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+.articulo p{
+    font-size: 20px;
+    padding: 10px;
+    color: #000;
+    line-height: 35px;
+    text-align: center
+}
+
+/*articulo contactos de contacto*/
+.contactos{
+    margin: 30px;
+    margin-left: 320px;
+    width: 50%;
+    background-color: #f3d6c1;
+    height: 150px; 
+}
+.contactos h2{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+.contactos p{
+    font-size: 20px;
+    padding: 10px;
+    color: #000;
+    line-height: 35px;
+    text-align: center;
+}

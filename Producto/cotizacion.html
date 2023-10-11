@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizacion</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<header>
+    <div class="header-superior">
+        <div class="logo">
+            <img src="imagenes/MalibuLogoT.png" alt="">
+        </div> 
+    </div>
+
+<!-- Inicio menu cascada-->
+    <div class="container_menu">
+        <div class="menu">
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="#Menu">Menu</a>
+            <ul>
+                <li><a href="menucarta.html">Menu Carta</a></li>
+            </ul>
+        </li>
+        <li><a href="#Galeria">Galeria</a>
+            <ul>
+                <li><a href="platillos.html">Platillos</a>
+                <a href="bebidasycocteles.html">Bebidas y Cocteles</a>
+                <a href="postres.html">Postres</a></li>
+            </ul>
+        </li>
+        <li><a href="">Catering Service</a>
+            <ul>
+                <li><a href="equipodetrabajo.html">Equipo de trabajo</a>
+                <li><a href="cotizacion.html">Cotizacion</a></li>
+            </ul>
+        </li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+        </div>
+    </div>
+<!--Final menu cascada-->
+</header>
+
+<body>
+<!-- Inicio formulario-->
+    <div id="container">
+        <h1>Formulario de Cotización</h1>
+        
+        <form action="mailto:juansana4@hotmail.com" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="Nombre" name="nombre" id="name_input" required>
+          </div>
+
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="Correo electrónico" name="email" id="email_input" required>
+          </div>
+
+          <div class="telephone">
+            <label for="name"></label>
+            <input type="text" placeholder="Telefono" name="telefono" id="telephone_input" required>
+          </div>
+
+          <div class="message">
+            <label for="message"></label>
+            <textarea name="mensaje" placeholder="Para cuántas personas es el evento? Cuántos tiempos de comida requiere? Qué tipo de comida le interesa? Ya posee lugar o se alquilara el salón de eventos?" id="mensaje" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Enviar Cotización" id="form_button" />
+          </div>
+        </form>
+<!--Final formulario-->
+</body>
+
+
+</html>
